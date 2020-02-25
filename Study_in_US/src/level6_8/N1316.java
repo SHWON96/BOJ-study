@@ -1,5 +1,4 @@
-package baek_study;
-
+package level6_8;
 import java.util.ArrayList;
 import java.util.Scanner;
 
