@@ -17,10 +17,7 @@ public class N1712 {
 		
 		int profit = C-B;
 		if(profit>0) {
-		while(profit*breakpoint<=A) {
-			
-				breakpoint++;
-			}
+	
 		System.out.println(A/profit +1);
 		//System.out.println(breakpoint);
 		}else {
