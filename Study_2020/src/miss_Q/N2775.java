@@ -16,13 +16,14 @@ public class N2775 {
 			testkn[i][1] = Integer.parseInt(br.readLine());
 			
 		}
-		int[][] nums = new int[14][14];
+		int[][] nums = new int[15][14];
 		
-		// i´Â Ãş, j´Â È£
+		
 		for(int i=0;i<14;i++) {
 			nums[0][i] = i+1;
 		}
-		for(int i=1; i<14;i++) {
+		// i´Â Ãş, j´Â È£
+		for(int i=1; i<15;i++) {
 			for(int j=0; j<14;j++) {
 				int temp = 0;
 				for(int k=0;k<=j;k++) {
