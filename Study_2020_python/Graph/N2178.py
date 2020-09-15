@@ -5,7 +5,6 @@
 
 # 초기 입력값 받기
 import sys
-import math
 input = sys.stdin.readline
 N,M = map(int, input().split(" "))
 #G = [input().rstrip() for _ in range(N)]
