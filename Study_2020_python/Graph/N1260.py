@@ -36,7 +36,7 @@ def BFS(G,s):
     return Visit
 
 # DFS
-visit = []
+
 def DFS(s,Visited):
     Visited.append(s)
     for i in range(1, N + 1):
@@ -47,9 +47,16 @@ def DFS(s,Visited):
     return Visited
 
 
+visit = []
+
+# 이건 리스트로 나와서 아래처럼 처리.
+# print(DFS(V,visit))
+# print()
+# print(BFS(G,V))
 
 for i in DFS(V,visit):
     print(i,end=" ")
 print()
+
 for i in BFS(G,V):
     print(i,end=" ")
